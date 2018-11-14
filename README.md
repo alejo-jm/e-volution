@@ -1,4 +1,4 @@
-# e-volution
+# e-volution --Juan Diego Tróchez Montoya --> electronic engeenier
 test to e-volution job
 
 This repo has all files of smple alarm system.
@@ -10,3 +10,5 @@ To enable sqlite module you must find php.ini file and edit it. You must remove 
 
 After, you must copy and paste all folder e-volution in your localhost folder.
 Ready!!, now you can enjoy this platform in the url localhost/e-volution
+
+in repo you can find the zip files with the same files of e-volution folder
