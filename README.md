@@ -11,4 +11,5 @@ To enable sqlite module you must find php.ini file and edit it. You must remove 
 After, you must copy and paste all folder e-volution in your localhost folder.
 Ready!!, now you can enjoy this platform in the url localhost/e-volution
 
-in repo you can find the zip files with the same files of e-volution folder
+in repo you can find the zip files with the same files of e-volution folder.
+You can also enjoy the alarm system in 185.28.100.197/e-volution
