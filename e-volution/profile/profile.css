@@ -1,0 +1,76 @@
+/*class of sidebar to define properties*/
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 5%;
+}
+
+/*animation of sidebar when mouse enterer*/
+.sidenav:hover{
+	width: 15%;
+	transition: 0.3s;                  
+}
+
+/*animation of sidebar when mouse exit*/
+.sidenav:not(:hover){
+	width: 8%;
+	transition: 0.3s;
+}
+
+/*class to define all a's element properties contain in sidebar*/
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+}
+
+/*animation of a in sidebar when mouse enterer*/
+.sidenav a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+/*class to hide of span*/
+.sidenavspan{
+    display: none;
+}
+
+/*animation applied to span when mpuse enterer in a element in sidebar*/
+.sidenav a:hover .sidenavspan{
+    display: inline;
+    color: red;
+}
+
+/*properties of ul in sidebar*/
+.sidenav>ul { 
+    margin-left: -20%; 
+    list-style:none; 
+}
+
+/*class to define properties of div in wich is the alarm's table*/
+.table-alarms {
+    width:100%;
+    margin-bottom: 1%;
+    height: 22%;
+    overflow: auto;
+}
+
+/*class to change the color of expired alarm table*/
+.expired-table {
+    background-color:#ffb3b3;
+}
+
+/*set color of all element a into td tag*/
+td a {
+    color: #000;
+}
+
+
+
